@@ -2,9 +2,6 @@ function [Z_est] = PolynomialSurfaceFitting(input_matrix,r0,c0)
 %2ndPolynomialSurfaceFitting Summary of this function goes here
 % Fitting a second degree polynomial to an input matrix(image)
 
-% img = im2double(imread("angiography_live_image.tif"));
-% imshow(img);
-
 X = zeros(r0*c0,1);
 Y = zeros(r0*c0,1); 
 Z = zeros(r0*c0,1);
